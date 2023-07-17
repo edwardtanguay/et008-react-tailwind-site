@@ -16,6 +16,7 @@ module.exports = {
     project: true,
     tsconfigRootDir: __dirname,
   },
+  "ignorePatterns": ["temp.js", "**/*.js", "**/*.cjs"],
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': [
